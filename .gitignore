@@ -2,16 +2,8 @@
 *
 
 # But don't ignore these specific files and directories
-!.gitignore
-!README_Incremental_Versions.md
-!Plan_13_Grupos_Galaxy_Zoo.md
-!Proyecto_Galaxy_Zoo_Entrega_Inicial.md
-!Proyecto_Galaxy_Zoo_Entrega_Inicial.pdf
-!proyecto_galaxy_zoo_semana_*.ipynb
-!proyecto_galaxy_zoo.ipynb
-!galaxy_zoo/
-!galaxy_zoo/**
-!create_incremental_versions.py
+!galaxy_zoo.ipynb
+
 
 # Ignore common Python files
 __pycache__/
