@@ -1,0 +1,103 @@
+# Ignore everything by default
+*
+
+# But don't ignore these specific files and directories
+!.gitignore
+!README_Incremental_Versions.md
+!Plan_13_Grupos_Galaxy_Zoo.md
+!Proyecto_Galaxy_Zoo_Entrega_Inicial.md
+!Proyecto_Galaxy_Zoo_Entrega_Inicial.pdf
+!proyecto_galaxy_zoo_semana_*.ipynb
+!proyecto_galaxy_zoo.ipynb
+!galaxy_zoo/
+!galaxy_zoo/**
+!create_incremental_versions.py
+
+# Ignore common Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Ignore data files (except galaxy_zoo directory)
+*.csv
+*.json
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore model files
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# Ignore image files (except in galaxy_zoo)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# But allow images in galaxy_zoo directory
+!galaxy_zoo/**/*.jpg
+!galaxy_zoo/**/*.jpeg
+!galaxy_zoo/**/*.png
+!galaxy_zoo/**/*.gif
+!galaxy_zoo/**/*.bmp
+!galaxy_zoo/**/*.tiff
+!galaxy_zoo/**/*.svg
