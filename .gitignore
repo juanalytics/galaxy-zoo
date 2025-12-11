@@ -3,6 +3,7 @@
 
 # But don't ignore these specific files and directories
 !galaxy_zoo.ipynb
+!README.md
 
 
 # Ignore common Python files
