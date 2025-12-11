@@ -1,4 +1,4 @@
-```markdown
+
 # Clasificación Morfológica de Galaxias — Desafío Galaxy Zoo (Kaggle)
 
 Este proyecto implementa una solución de **Aprendizaje Profundo** para la clasificación automática de galaxias, abordando el *Galaxy Zoo Challenge* de Kaggle. El objetivo es predecir directamente las características morfológicas galácticas a partir de imágenes astronómicas, automatizando el trabajo de miles de voluntarios de ciencia ciudadana.
@@ -104,4 +104,4 @@ En futuras iteraciones se recomienda evaluar con:
 - MAE o MSE por dimensión del vector objetivo
 
 ---
-```
+
